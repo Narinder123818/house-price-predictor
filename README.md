@@ -35,9 +35,9 @@ Python · pandas · NumPy · matplotlib · seaborn · scikit-learn · Jupyter
 
 | Prices across California | Feature importance |
 |---|---|
-| ![Price map](images/price_map.png) | ![Feature importance](images/feature_importance.png) |
+| ![Price map](price_map.png) | ![Feature importance](feature_importance.png) |
 
-![Actual vs predicted](images/actual_vs_predicted.png)
+![Actual vs predicted](actual_vs_predicted.png)
 
 ## ⚠️ Limitations
 - Prices are capped at $500,000, so the model can't predict very expensive houses well.
@@ -49,7 +49,7 @@ Python · pandas · NumPy · matplotlib · seaborn · scikit-learn · Jupyter
 
 ## ▶️ How to Run
 ```bash
-git clone https://github.com/<your-username>/house-price-predictor.git
+git clone https://github.com/Narinder123818/house-price-predictor.git
 cd house-price-predictor
 pip install -r requirements.txt
 jupyter notebook house_price_predictor.ipynb
